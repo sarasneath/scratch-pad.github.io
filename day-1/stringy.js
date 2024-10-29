@@ -13,26 +13,43 @@
  * work?
  */
 
-
+/*
+I: function takes in a string
+O: function returns the length of string as a number
+C: n/a
+E: n/a
+*/
 
 
 function length(string) {
     // YOUR CODE BELOW HERE //
-
-   
-    
-    // YOUR CODE ABOVE HERE //
+   // return input string's length property
+   return string.length; 
 }
+// YOUR CODE ABOVE HERE //
+
+/*
+I: function takes in a string
+O: function returns a new string in lowercase
+C: n/a
+E: n/a
+*/
 
 /**
  * Given an input String, return a new String forced to lowercase.
  */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
-   
-
+   console.log(string.toLowerCase());
     // YOUR CODE ABOVE HERE //
 }
+
+/*
+I: function takes in a string
+O: function returns a new string in uppercase
+C: n/a
+E: n/a
+*/
 
 /**
  * Given an input String, return a new String forced to uppercase.
@@ -40,8 +57,7 @@ function toLowerCase(string) {
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
 
-
-
+console.log(string.toUpperCase());
     // YOUR CODE ABOVE HERE //
 }
 
@@ -58,9 +74,16 @@ function toUpperCase(string) {
  *
  *      See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Using_global_and_ignore_with_replace()
  */
+
+/*
+I: function takes in a string
+O: function returns a new string in lower case with spaces replaced by dashes
+C: n/a
+E: n/a
+*/
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
-
+console.log(string.reaplace(' ', '-'));
 
 
     // YOUR CODE ABOVE HERE //
