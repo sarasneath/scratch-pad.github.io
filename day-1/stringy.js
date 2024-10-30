@@ -83,7 +83,9 @@ E: n/a
 */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
+    //enforce lower case
     return string.toLowerCase();
+    //split string at spaces, join string with dashes
     return string.split(' ').join('-');
 
 
@@ -106,14 +108,16 @@ function toDashCase(string) {
 /*
 I: function takes in two strings (string, single character)
 O: function returns a boolean value of true if the string starts with the given character
-C: n/a
+C: the function is case insensitve
 E: n/a
 */
 
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
+    //convert string and character to lowercase
     var lowerString = string.toLowerCase();
     var lowerChar = char.toLowerCase();
+    //check if first chracter of the string matches the character
     return lowerString[0] === lowerchar;
 }
     // YOUR CODE ABOVE HERE //
@@ -130,13 +134,24 @@ function beginsWith(string, char) {
  * TIP: How can you use Array access to your advantage here? How can you
  *      ensure uppercase and lowercase can be compared equally?
  */
+
+/*
+I: function takes in two strings (string, single character)
+O: function returns a boolean value of true if the string ends with the given character
+C: the function is case insensitve
+E: n/a
+*/
+
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-
-
-
-    // YOUR CODE ABOVE HERE //
+    //convert string and single character to lower case
+    var lowerString = string.toLowerCase();
+    var lowerChar = char.toLowerCase();
+    //check if string ends with the character, return boolean value of true if it does
+    return lowerString[lowerString.length - 1] === lowerChar;
 }
+    // YOUR CODE ABOVE HERE //
+
 
 /**
  * Given two input Strings, return the Strings concatenated into one.
