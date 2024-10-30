@@ -212,7 +212,7 @@ function join(stringOne, stringTwo) {
 
 /*
 I: function takes in two strings
-O: function returns the longest of the two
+O: function returns the longest string of the two
 C: n/a
 E: n/a
 */
