@@ -14,8 +14,8 @@
 function createGreaterThanFilter(base) {
     // YOUR CODE BELOW HERE //
     
-   
-    
+   return function(value){
+    return value > base;
     // YOUR CODE ABOVE HERE //
 }
 
@@ -27,12 +27,13 @@ function createGreaterThanFilter(base) {
  */
 function createLessThanFilter(base) {
     // YOUR CODE BELOW HERE //
-    
+     return function(value){
+     }
   
     
     
     // YOUR CODE ABOVE HERE //
-}
+
 
 /** 
  * Given a startsWith character, which will be a single character, return a 
@@ -71,7 +72,7 @@ function createEndsWithFilter(endsWith) {
  * return the Array of the Strings, modified.
  * 
  * TIP: You need to loop over the Strings, right? We need to pass each String to 
- * the modify Function, but we need to collect the results into some collection.
+ * the modify Function, but we need to collect the results into some collection. Examples are in Slack
  */
 function modifyStrings(strings, modify) {
     // YOUR CODE BELOW HERE //
@@ -90,7 +91,8 @@ function modifyStrings(strings, modify) {
  * way and return a Boolean on whether it passed, return true if ALL Strings pass the test.
  * 
  * Imagine you had a list of names, and you wanted to test they all 
- * begin with "C", or they are all exclaimations that end with "!".
+ * begin with "C", or they are all exclaimations that end with "!". This one is similar to the filter 
+ * function Alex talked about during class
  * 
  * TIP: You need to loop over the Strings, right? And pass them to the test?
  */
