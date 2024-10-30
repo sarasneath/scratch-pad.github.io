@@ -224,7 +224,7 @@ function longest(stringOne, stringTwo) {
         return stringOne;
     //else return StringTwo
     else {
-        return string.Two;
+        return stringTwo;
     }
 }
     // YOUR CODE ABOVE HERE //
