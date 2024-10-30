@@ -40,7 +40,7 @@ E: n/a
  */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
-   console.log(string.toLowerCase());
+    return string.toLowerCase();
     // YOUR CODE ABOVE HERE //
 }
 
@@ -57,7 +57,7 @@ E: n/a
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
 
-console.log(string.toUpperCase());
+    return string.toUpperCase();
     // YOUR CODE ABOVE HERE //
 }
 
@@ -83,7 +83,8 @@ E: n/a
 */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
-console.log(string.reaplace(' ', '-'));
+    return string.toLowerCase()
+    return string.split(' ').join('-');
 
 
     // YOUR CODE ABOVE HERE //
