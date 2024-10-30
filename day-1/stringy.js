@@ -167,7 +167,7 @@ E: n/a
 function concat(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     //concatenate the two strings
-    return stringOne +stringTwo;
+    return stringOne + stringTwo;
 }
 
     // YOUR CODE ABOVE HERE //
@@ -183,6 +183,14 @@ function concat(stringOne, stringTwo) {
  * TIP: This Function pulls out all the arguments passed to it and stores them
  *      in an Array called args.
  */
+
+/*
+I: function takes in any number of strings
+O: function returns an array called args of the strings concatenated into one
+C: n/a
+E: n/a
+*/
+
 function join(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     var args = Array.from(arguments);
