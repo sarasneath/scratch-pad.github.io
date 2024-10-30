@@ -185,8 +185,8 @@ function concat(stringOne, stringTwo) {
  */
 
 /*
-I: function takes in any number of strings
-O: function returns an array called args of the strings concatenated into one
+I: function takes in any number of strings in an array
+O: function returns strings concatenated into one called "args"
 C: n/a
 E: n/a
 */
@@ -194,10 +194,11 @@ E: n/a
 function join(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     var args = Array.from(arguments);
-
-
-    // YOUR CODE ABOVE HERE //
+    //join any number of strings in an array together
+    return args.join(' ');
 }
+    // YOUR CODE ABOVE HERE //
+
 
 /**
  * Given two Strings, return the longest of the two.
