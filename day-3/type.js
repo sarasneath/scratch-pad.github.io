@@ -12,7 +12,7 @@
  * TIP: In JavaScript, how can we decipher if a value is an Array? Can typeof
  * work?
  * 
- * HINT: There is a method that can help with this.
+ * HINT: There is a method that can help with this. Read Type section on Greenlight. But Google for method.
  */
 function isArray(value) {
     // YOUR CODE BELOW HERE //
@@ -33,8 +33,8 @@ function isArray(value) {
  * null, not an Array, not a Date - all of these will return 'object' if used 
  * with typeof.
  * 
- * HINT: look up how to figure out if something is an instance of the Date object.
- * 
+ * HINT: look up how to figure out if something is an instance of the Date object. There is a little bit of caveat here. 
+ * The only thing you want it to return true for a normal type object. Read Type section in Greenlight.
  */
 function isObject(value) {
     // YOUR CODE BELOW HERE //
@@ -90,6 +90,12 @@ function typeOf(value) {
     
     // YOUR CODE ABOVE HERE //
 }
+
+//console.log(typeof age); // 'number'
+//console.log(typeof firstName); // 'string'
+//console.log(typeof add): // 'function'
+
+//whenever you use typeof operator on array, object, nul it is less helpful (will call them all object)
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
