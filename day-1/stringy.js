@@ -209,13 +209,26 @@ function join(stringOne, stringTwo) {
  *
  * TIP: What property of the String do we need to compare?
  */
+
+/*
+I: function takes in two strings
+O: function returns the longest of the two
+C: n/a
+E: n/a
+*/
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
-
-
-    // YOUR CODE ABOVE HERE //
+    //compare the two string lengths
+    if (stringOne.length > stringTwo.length){
+    //if stringOne is longer, return StringOne
+        return stringOne;
+    //else return StringTwo
+    else {
+        return string.Two;
+    }
 }
+    // YOUR CODE ABOVE HERE //
+
 
 /**
  * Given two Strings, return 1 if the first is higher in alphabetical order than
